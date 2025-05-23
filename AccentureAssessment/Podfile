@@ -6,6 +6,10 @@ target 'AccentureAssessment' do
   use_frameworks!
 
   # Pods for AccentureAssessment
+pod 'Alamofire'
+pod 'RealmSwift'
+pod 'RxSwift', '~> 6.6'
+pod 'RxCocoa', '~> 6.6'
 
   target 'AccentureAssessmentTests' do
     inherit! :search_paths
